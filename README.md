@@ -18,3 +18,34 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
     - Ensemble and resampling techniques
 
 ## Results 
+
+Below are the results of all six machine learning algorithms.
+
+ | ML Model | Balanced Accuracy Score | Precision | Recall | F1 |
+ | --- | --- | --- | --- | --- |
+ | Naive Random Oversampling | 0.64 | 0.99 | 0.68 | 0.80 |
+ | SMOTE Oversampling | 0.64 | 0.99 | 0.63 | 0.77 |
+ | Cluster Centroid Undersampling | 0.51 | 0.99 | 0.44 | 0.60 | 
+ | SMOTEENN Combination Sampling | 0.63 | 0.99 | 0.57 | 0.73 |
+ | Balanced Random Forest Classifier | 0.78 | 0.99 | 0.91 | 0.95 |
+ | Easy Ensemble AdaBoost Classifier | 0.93 | 0.99 | 0.94 | 0.97 |
+ 
+### Naive Random Oversampling
+
+![webpage](https://github.com/diercz/Credit_Risk_Analysis/blob/main/Images/Naive%20Random%20Oversampling.png)
+
+### SMOTE Oversampling
+
+![webpage](https://github.com/diercz/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Oversampling.png)
+
+### Cluster Centroid Undersampling
+
+![webpage](https://github.com/diercz/Credit_Risk_Analysis/blob/main/Images/Cluster%20Centroid.png)
+
+### Balanced Random Forest Classifier
+
+![webpage](https://github.com/diercz/Credit_Risk_Analysis/blob/main/Images/Random%20Forest.png)
+
+### Easy Ensemble Adaboost Classifier
+
+![webpage](https://github.com/diercz/Credit_Risk_Analysis/blob/main/Images/Adaboost.png)
